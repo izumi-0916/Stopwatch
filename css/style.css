@@ -33,11 +33,27 @@ body {
   user-select: none;
 }
 
+#start{
+  background-color: red;
+  color: #fff;
+}
+
+#stop{
+  background-color: blue;
+  color: #fff;
+}
+
+#reset{
+  background-color: green;
+  color: #fff;
+}
+
 .controls {
   display: flex;
   justify-content: space-between;
 }
 
 .inactive {
-  opacity: 0.6;
+  opacity: 0.4;
+  
 }
